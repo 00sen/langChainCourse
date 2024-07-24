@@ -9,71 +9,6 @@
         "documentation": {}
     },
     {
-        "label": "requests",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
         "label": "hub",
         "importPath": "langchain",
         "description": "langchain",
@@ -199,6 +134,62 @@
         "description": "langchain.prompts.prompt",
         "isExtraImport": true,
         "detail": "langchain.prompts.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
         "documentation": {}
     },
     {
@@ -274,6 +265,15 @@
         "documentation": {}
     },
     {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
         "label": "tweepy",
         "kind": 6,
         "isExtraImport": true,
@@ -288,22 +288,6 @@
         "description": "langchain_community.tools.tavily_search",
         "isExtraImport": true,
         "detail": "langchain_community.tools.tavily_search",
-        "documentation": {}
-    },
-    {
-        "label": "ChatOllama",
-        "importPath": "langchain_ollama",
-        "description": "langchain_ollama",
-        "isExtraImport": true,
-        "detail": "langchain_ollama",
-        "documentation": {}
-    },
-    {
-        "label": "StrOutputParser",
-        "importPath": "langchain_core.output_parsers",
-        "description": "langchain_core.output_parsers",
-        "isExtraImport": true,
-        "detail": "langchain_core.output_parsers",
         "documentation": {}
     },
     {
@@ -443,6 +427,30 @@
         "documentation": {}
     },
     {
+        "label": "ChatOllama",
+        "importPath": "langchain_ollama",
+        "description": "langchain_ollama",
+        "isExtraImport": true,
+        "detail": "langchain_ollama",
+        "documentation": {}
+    },
+    {
+        "label": "StrOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_linkedin_profile",
+        "importPath": "third_parties2.linkedin",
+        "description": "third_parties2.linkedin",
+        "isExtraImport": true,
+        "detail": "third_parties2.linkedin",
+        "documentation": {}
+    },
+    {
         "label": "PydanticOutputParser",
         "importPath": "langchain.output_parsers",
         "description": "langchain.output_parsers",
@@ -464,15 +472,6 @@
         "description": "langchain_core.pydantic_v1",
         "isExtraImport": true,
         "detail": "langchain_core.pydantic_v1",
-        "documentation": {}
-    },
-    {
-        "label": "scrape_linkedin_profile",
-        "kind": 2,
-        "importPath": "2third_parties.linkedin",
-        "description": "2third_parties.linkedin",
-        "peekOfCode": "def scrape_linkedin_profile(linkedin_profile_url: str, mock: bool = False):\n    if mock:\n        linkedin_profile_url = \"https://gist.githubusercontent.com/emarco177/0d6a3f93dd06634d95e46a2782ed7490/raw/fad4d7a87e3e934ad52ba2a968bad9eb45128665/eden-marco.json\"\n        response = requests.get(\n            linkedin_profile_url,\n            timeout=10,\n        )\n    else:\n        api_endpoint = \"https://nubela.co/proxycurl/api/v2/linkedin\"\n        header_dic = {\"Authorization\": f'Bearer {os.environ.get(\"PROXYCURL_API_KEY\")}'}",
-        "detail": "2third_parties.linkedin",
         "documentation": {}
     },
     {
@@ -575,21 +574,21 @@
         "documentation": {}
     },
     {
+        "label": "scrape_linkedin_profile",
+        "kind": 2,
+        "importPath": "third_parties2.linkedin",
+        "description": "third_parties2.linkedin",
+        "peekOfCode": "def scrape_linkedin_profile(linkedin_profile_url: str, mock: bool = False):\n    if mock:\n        linkedin_profile_url = \"https://gist.githubusercontent.com/emarco177/0d6a3f93dd06634d95e46a2782ed7490/raw/fad4d7a87e3e934ad52ba2a968bad9eb45128665/eden-marco.json\"\n        response = requests.get(\n            linkedin_profile_url,\n            timeout=10,\n        )\n    else:\n        api_endpoint = \"https://nubela.co/proxycurl/api/v2/linkedin\"\n        header_dic = {\"Authorization\": f'Bearer {os.environ.get(\"PROXYCURL_API_KEY\")}'}",
+        "detail": "third_parties2.linkedin",
+        "documentation": {}
+    },
+    {
         "label": "get_profile_url_tavily",
         "kind": 2,
         "importPath": "tools.tools",
         "description": "tools.tools",
         "peekOfCode": "def get_profile_url_tavily(name: str):\n    \"\"\"Searches for Linkedin or twitter Profile Page.\"\"\"\n    search = TavilySearchResults()\n    res = search.run(f\"{name}\")\n    return res[0][\"url\"]",
         "detail": "tools.tools",
-        "documentation": {}
-    },
-    {
-        "label": "information",
-        "kind": 5,
-        "importPath": "2ice_breaker",
-        "description": "2ice_breaker",
-        "peekOfCode": "information = \"\"\"\n    Elon Reeve Musk FRS is a businessman and investor known for his key roles in space company SpaceX and automotive company Tesla, Inc. Other involvements include ownership of X Corp., formerly Twitter, and his role in the founding of The Boring Company, xAI, Neuralink and OpenAI. He is one of the wealthiest people in the world; as of July 2024, Forbes estimates his net worth to be US$221 billion.[4]\nMusk was born in Pretoria to model Maye and businessman and engineer Errol Musk, and briefly attended the University of Pretoria before immigrating to Canada at age 18, acquiring citizenship through his Canadian-born mother. Two years later, he matriculated at Queen's University at Kingston in Canada. Musk later transferred to the University of Pennsylvania and received bachelor's degrees in economics and physics. He moved to California in 1995 to attend Stanford University, but dropped out after two days and, with his brother Kimbal, co-founded online city guide software company Zip2. The startup was acquired by Compaq for $307 million in 1999. That same year, Musk co-founded X.com, a direct bank. X.com merged with Confinity in 2000 to form PayPal. In October 2002, eBay acquired PayPal for $1.5 billion. Using $100 million of the money he made from the sale of PayPal, Musk founded SpaceX, a spaceflight services company, in 2002.\n\"\"\"\nif __name__ == \"__main__\":\n    summary_template = \"\"\"\n        given the information {information} about a person from I want you to create:\n        1. a short summary\n        2. two interesting facts about them\n    \"\"\"",
-        "detail": "2ice_breaker",
         "documentation": {}
     },
     {
